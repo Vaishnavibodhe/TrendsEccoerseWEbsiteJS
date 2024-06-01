@@ -1,0 +1,423 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    width:100%;
+    height:100%;
+    background-color:rgb(225, 232, 230)
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color:rgb(214, 246, 246);
+ box-shadow: 0px 2px 2px 2px gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+   
+    margin-left: 22px;
+    font-size: 30px;
+}
+ul{
+    margin-right: 30px;
+}
+nav ul li{
+     list-style: none;
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 30px;
+    color: black;
+
+}
+ul li #home{
+    color: #13fefe;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+   color:gray;
+    cursor: pointer;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height:90vh;
+    padding:10;
+}
+.main .mainText{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.mainText .top{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(10, 139, 139);
+    
+}
+.mainText h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: black
+}
+    
+.mainText h2{
+    font-size: 3rem;
+}
+.mainText button{
+    width:70px;
+    height:25px;
+    background-color:rgb(10, 139, 139);
+    border: none;
+    color: white;
+}
+.mainText button:hover{
+    background-color: transparent;
+    border:2px solid aqua;
+    color:black
+
+}
+.trend .head h1{
+    font-size: 40px;
+    color:black;
+   margin-bottom: 20px;
+   margin-top: 65px;
+   text-align: center;
+   
+ 
+   
+}
+.trend .head span{
+    color: rgb(10, 139, 139);
+}
+.card{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.card .crd{
+    width:300px;
+    height:400px;
+    background-color: white;
+  margin-right: 8px;
+   background-image: cover;
+   
+   padding:20px;
+}
+.card .crd:hover{
+   /*background-color: rgb(118, 113, 104);*/
+   transition:0.9s ease;
+   width:320px;
+   height:420px;
+    cursor: pointer;
+
+}
+.crd img{
+    width:95%;
+    height:75%;
+    border-radius: 10px;
+   
+}
+.crd button{
+    width:38%;
+    height:6%;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+.crd button:hover{
+    border: black;
+    background-color: white;
+    color: black;
+}
+.crd i{
+    color: rgb(233, 129, 17);
+}
+/*about us */
+.about{
+    display:none;
+    margin:22px;
+}
+.aboutUs{
+    background-color: rgb(4, 4, 15);
+    width:100%;
+    height:100px;
+    color: white;
+    padding:15px;
+}
+
+.me{
+    width:800px;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    padding:34px;
+    background-color: white;
+    margin-top:8%;
+   margin-left: 18%;
+   align-items: center;
+    
+
+}
+.me img{
+   margin-top: 20px;
+    height:85%;
+    width:74%;
+}
+.meText{
+    padding:20px;
+    margin-left: 10px;
+    
+}
+.meText h1{
+    color: black;
+    margin-bottom: 5px;
+}
+.meText p{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact{
+    display:none;
+}
+/*contact*/
+.contactUs{
+
+width:100%;
+height:130px;
+ background-color: rgb(4, 4, 15);
+ padding:35px;
+ margin-top:20px;
+ margin-bottom:20px;
+}
+.contactUs h1{
+    font-size: 30px;
+    color:white;
+}
+.contactUs p{
+    font-size: 20px;
+    color:white;
+}
+.contactMe{
+    width:700px;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    margin-top: 20px;
+    margin-left:20%;
+    background-color: white;
+    color:black;
+}
+.contactMe iframe{
+    width:70%;
+    height:85%;
+    padding:10px;
+}
+.contactText{
+    width:50%;
+    height:75%;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.contactText h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactText p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.form{
+    padding: 20px;
+   text-align:  center;
+ margin-top:3%;
+ 
+}
+.form h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   
+}
+.form input{
+    padding:3px;
+    margin-top:20px;
+    width:250px;
+    height:30px;
+   
+}
+.form button{
+    margin-top: 10px;
+    width:250px;
+    height:30px;
+    background-color: #052c38;
+    color:white;
+}
+.cart{
+    padding:30px;
+   text-align: center;
+   display: flex;
+ width:800px;
+   height:500px;
+   margin-left: 150px;
+   margin-top: 33px;
+   margin-bottom: 33px;
+   display:none;
+   
+}
+.cart img{
+    width:60%;
+   height: 95%;
+  padding: 15px;
+}
+.cartText{
+    margin-left:15px;
+}
+.cartText h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 8px;
+   text-align: start;
+}
+.cartText h3{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.cartText p{
+    text-align: left;
+  
+}
+.cartText button{
+    width:120px;
+    height:33px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: rgb(12, 160, 160);
+}
+.btn button{
+    margin-top: 20px;
+  background-color: rgb(13, 65, 65);
+  
+}
+
+
+.bigBlog{
+    display:flex;
+    justify-content: center;
+
+}
+
+.blog{
+    width:400px;
+    height:300px;
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    margin-inline: 22px;/*two blogs will be saperat from each other*/
+    align-items:center ;
+}
+.blog:hover{
+    transition: 0.6s ease; /*this is for afte clinking on text blog that will transit 0.6 sec and increase size*/
+    width:420px;
+    height:320px;
+}
+.blog img{
+    width: 65%;
+    height: 100%;
+    padding:20px;
+}
+.trends .head h1{
+    font-size: 40px;
+    color:black;
+   margin-bottom: 20px;
+   margin-top: 65px;
+   text-align: center;
+}
+.trends .head span{
+    color: rgb(10, 139, 139);
+}
+.textBlog{
+   padding:13px;
+    margin-top: 33px;
+    
+}
+.textBlog a{
+    background-color: rgb(8, 125, 119);
+    width:130px;
+    height: 100px;
+    color: white;
+    padding: 4px;
+    font-size: 18px;
+    margin-top: 22px;
+    border-radius: 10px;
+    position: relative; /*for gettng top gap int textBlog with relative postion*/
+    top:20px;
+    
+}
+.letter{
+    background-color: rgb(4, 4, 15);
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    padding:44px;
+    margin-top: 44px;
+}
+.inp{
+    margin-right: 44px;
+    display: flex;
+    
+}
+.inp input{
+    width:300px;
+    height:31px;
+border: none;
+
+font-size: 18px;
+}
+
+.inp button{
+    width:65px;
+    height: 32px;
+    border: none;
+    background-color: #13fef6;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 22, 24);
+   
+}
+.footerText{
+     padding:45px;
+     margin-inline: 80px;
+     color: white;
+}
+
+
+
+
+
